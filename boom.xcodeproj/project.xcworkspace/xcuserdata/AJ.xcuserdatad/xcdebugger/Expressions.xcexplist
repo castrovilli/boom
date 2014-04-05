@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "GLOBAL">
+         <PersistentStrings>
+            <PersistentString
+               value = "bBooms">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[leeViewController setBooms::]:leeViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[leeViewController generatorBooms]:leeViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "bBooms[1]">
+            </PersistentString>
+            <PersistentString
+               value = "bBooms[0]">
+            </PersistentString>
+            <PersistentString
+               value = "bBooms @ 50">
+            </PersistentString>
+            <PersistentString
+               value = "*bBooms @ 50">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42399EEA17C2268D003E07DE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42399EE917C2268D003E07DE /* UIKit.framework */; };
+		42399EEC17C2268D003E07DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42399EEB17C2268D003E07DE /* Foundation.framework */; };
+		42399EEE17C2268D003E07DE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42399EED17C2268D003E07DE /* CoreGraphics.framework */; };
+		42399EF417C2268D003E07DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 42399EF217C2268D003E07DE /* InfoPlist.strings */; };
+		42399EF617C2268D003E07DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42399EF517C2268D003E07DE /* main.m */; };
+		42399EFA17C2268D003E07DE /* leeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42399EF917C2268D003E07DE /* leeAppDelegate.m */; };
+		42399EFD17C2268D003E07DE /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42399EFB17C2268D003E07DE /* MainStoryboard.storyboard */; };
+		42399F0017C2268D003E07DE /* leeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42399EFF17C2268D003E07DE /* leeViewController.m */; };
+		42399F0817C2268D003E07DE /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42399F0717C2268D003E07DE /* SenTestingKit.framework */; };
+		42399F0917C2268D003E07DE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42399EE917C2268D003E07DE /* UIKit.framework */; };
+		42399F0A17C2268D003E07DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42399EEB17C2268D003E07DE /* Foundation.framework */; };
+		42399F1217C2268D003E07DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 42399F1017C2268D003E07DE /* InfoPlist.strings */; };
+		42399F1517C2268D003E07DE /* boomTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42399F1417C2268D003E07DE /* boomTests.m */; };
+		42399F1F17C2281D003E07DE /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42399F1E17C2281D003E07DE /* AudioToolbox.framework */; };
+		42399F2517C2292E003E07DE /* boom.wav in Resources */ = {isa = PBXBuildFile; fileRef = 42399F2117C2292E003E07DE /* boom.wav */; };
+		42399F2617C2292E003E07DE /* boomed.wav in Resources */ = {isa = PBXBuildFile; fileRef = 42399F2217C2292E003E07DE /* boomed.wav */; };
+		42399F2717C2292E003E07DE /* flag.wav in Resources */ = {isa = PBXBuildFile; fileRef = 42399F2317C2292E003E07DE /* flag.wav */; };
+		42399F2817C2292E003E07DE /* win.wav in Resources */ = {isa = PBXBuildFile; fileRef = 42399F2417C2292E003E07DE /* win.wav */; };
+		4282B0E917C25B4D00AE959F /* boom.png in Resources */ = {isa = PBXBuildFile; fileRef = 4282B0E817C25B4D00AE959F /* boom.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		42399F0B17C2268D003E07DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42399EDC17C2268D003E07DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42399EE417C2268D003E07DE;
+			remoteInfo = boom;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		42399EE517C2268D003E07DE /* boom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = boom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42399EE917C2268D003E07DE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		42399EEB17C2268D003E07DE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		42399EED17C2268D003E07DE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		42399EF117C2268D003E07DE /* boom-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "boom-Info.plist"; sourceTree = "<group>"; };
+		42399EF317C2268D003E07DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		42399EF517C2268D003E07DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		42399EF717C2268D003E07DE /* boom-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "boom-Prefix.pch"; sourceTree = "<group>"; };
+		42399EF817C2268D003E07DE /* leeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = leeAppDelegate.h; sourceTree = "<group>"; };
+		42399EF917C2268D003E07DE /* leeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = leeAppDelegate.m; sourceTree = "<group>"; };
+		42399EFC17C2268D003E07DE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		42399EFE17C2268D003E07DE /* leeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = leeViewController.h; sourceTree = "<group>"; };
+		42399EFF17C2268D003E07DE /* leeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = leeViewController.m; sourceTree = "<group>"; };
+		42399F0617C2268D003E07DE /* boomTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = boomTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42399F0717C2268D003E07DE /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		42399F0F17C2268D003E07DE /* boomTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "boomTests-Info.plist"; sourceTree = "<group>"; };
+		42399F1117C2268D003E07DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		42399F1317C2268D003E07DE /* boomTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = boomTests.h; sourceTree = "<group>"; };
+		42399F1417C2268D003E07DE /* boomTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = boomTests.m; sourceTree = "<group>"; };
+		42399F1E17C2281D003E07DE /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		42399F2117C2292E003E07DE /* boom.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = boom.wav; sourceTree = "<group>"; };
+		42399F2217C2292E003E07DE /* boomed.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = boomed.wav; sourceTree = "<group>"; };
+		42399F2317C2292E003E07DE /* flag.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = flag.wav; sourceTree = "<group>"; };
+		42399F2417C2292E003E07DE /* win.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = win.wav; sourceTree = "<group>"; };
+		4282B0E817C25B4D00AE959F /* boom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boom.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42399EE217C2268D003E07DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42399F1F17C2281D003E07DE /* AudioToolbox.framework in Frameworks */,
+				42399EEA17C2268D003E07DE /* UIKit.framework in Frameworks */,
+				42399EEC17C2268D003E07DE /* Foundation.framework in Frameworks */,
+				42399EEE17C2268D003E07DE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42399F0217C2268D003E07DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42399F0817C2268D003E07DE /* SenTestingKit.framework in Frameworks */,
+				42399F0917C2268D003E07DE /* UIKit.framework in Frameworks */,
+				42399F0A17C2268D003E07DE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42399EDA17C2268D003E07DE = {
+			isa = PBXGroup;
+			children = (
+				4282B0E817C25B4D00AE959F /* boom.png */,
+				42399F2017C2292E003E07DE /* sound */,
+				42399F1E17C2281D003E07DE /* AudioToolbox.framework */,
+				42399EEF17C2268D003E07DE /* boom */,
+				42399F0D17C2268D003E07DE /* boomTests */,
+				42399EE817C2268D003E07DE /* Frameworks */,
+				42399EE617C2268D003E07DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		42399EE617C2268D003E07DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42399EE517C2268D003E07DE /* boom.app */,
+				42399F0617C2268D003E07DE /* boomTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42399EE817C2268D003E07DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42399EE917C2268D003E07DE /* UIKit.framework */,
+				42399EEB17C2268D003E07DE /* Foundation.framework */,
+				42399EED17C2268D003E07DE /* CoreGraphics.framework */,
+				42399F0717C2268D003E07DE /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		42399EEF17C2268D003E07DE /* boom */ = {
+			isa = PBXGroup;
+			children = (
+				42399EF817C2268D003E07DE /* leeAppDelegate.h */,
+				42399EF917C2268D003E07DE /* leeAppDelegate.m */,
+				42399EFB17C2268D003E07DE /* MainStoryboard.storyboard */,
+				42399EFE17C2268D003E07DE /* leeViewController.h */,
+				42399EFF17C2268D003E07DE /* leeViewController.m */,
+				42399EF017C2268D003E07DE /* Supporting Files */,
+			);
+			path = boom;
+			sourceTree = "<group>";
+		};
+		42399EF017C2268D003E07DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				42399EF117C2268D003E07DE /* boom-Info.plist */,
+				42399EF217C2268D003E07DE /* InfoPlist.strings */,
+				42399EF517C2268D003E07DE /* main.m */,
+				42399EF717C2268D003E07DE /* boom-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		42399F0D17C2268D003E07DE /* boomTests */ = {
+			isa = PBXGroup;
+			children = (
+				42399F1317C2268D003E07DE /* boomTests.h */,
+				42399F1417C2268D003E07DE /* boomTests.m */,
+				42399F0E17C2268D003E07DE /* Supporting Files */,
+			);
+			path = boomTests;
+			sourceTree = "<group>";
+		};
+		42399F0E17C2268D003E07DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				42399F0F17C2268D003E07DE /* boomTests-Info.plist */,
+				42399F1017C2268D003E07DE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		42399F2017C2292E003E07DE /* sound */ = {
+			isa = PBXGroup;
+			children = (
+				42399F2117C2292E003E07DE /* boom.wav */,
+				42399F2217C2292E003E07DE /* boomed.wav */,
+				42399F2317C2292E003E07DE /* flag.wav */,
+				42399F2417C2292E003E07DE /* win.wav */,
+			);
+			name = sound;
+			path = boom/sound;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42399EE417C2268D003E07DE /* boom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42399F1817C2268D003E07DE /* Build configuration list for PBXNativeTarget "boom" */;
+			buildPhases = (
+				42399EE117C2268D003E07DE /* Sources */,
+				42399EE217C2268D003E07DE /* Frameworks */,
+				42399EE317C2268D003E07DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = boom;
+			productName = boom;
+			productReference = 42399EE517C2268D003E07DE /* boom.app */;
+			productType = "com.apple.product-type.application";
+		};
+		42399F0517C2268D003E07DE /* boomTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42399F1B17C2268D003E07DE /* Build configuration list for PBXNativeTarget "boomTests" */;
+			buildPhases = (
+				42399F0117C2268D003E07DE /* Sources */,
+				42399F0217C2268D003E07DE /* Frameworks */,
+				42399F0317C2268D003E07DE /* Resources */,
+				42399F0417C2268D003E07DE /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42399F0C17C2268D003E07DE /* PBXTargetDependency */,
+			);
+			name = boomTests;
+			productName = boomTests;
+			productReference = 42399F0617C2268D003E07DE /* boomTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42399EDC17C2268D003E07DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = lee;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "AJ Lee";
+			};
+			buildConfigurationList = 42399EDF17C2268D003E07DE /* Build configuration list for PBXProject "boom" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 42399EDA17C2268D003E07DE;
+			productRefGroup = 42399EE617C2268D003E07DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42399EE417C2268D003E07DE /* boom */,
+				42399F0517C2268D003E07DE /* boomTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42399EE317C2268D003E07DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42399EF417C2268D003E07DE /* InfoPlist.strings in Resources */,
+				42399EFD17C2268D003E07DE /* MainStoryboard.storyboard in Resources */,
+				42399F2517C2292E003E07DE /* boom.wav in Resources */,
+				42399F2617C2292E003E07DE /* boomed.wav in Resources */,
+				42399F2717C2292E003E07DE /* flag.wav in Resources */,
+				42399F2817C2292E003E07DE /* win.wav in Resources */,
+				4282B0E917C25B4D00AE959F /* boom.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42399F0317C2268D003E07DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42399F1217C2268D003E07DE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		42399F0417C2268D003E07DE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42399EE117C2268D003E07DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42399EF617C2268D003E07DE /* main.m in Sources */,
+				42399EFA17C2268D003E07DE /* leeAppDelegate.m in Sources */,
+				42399F0017C2268D003E07DE /* leeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42399F0117C2268D003E07DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42399F1517C2268D003E07DE /* boomTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		42399F0C17C2268D003E07DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42399EE417C2268D003E07DE /* boom */;
+			targetProxy = 42399F0B17C2268D003E07DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		42399EF217C2268D003E07DE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42399EF317C2268D003E07DE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		42399EFB17C2268D003E07DE /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42399EFC17C2268D003E07DE /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		42399F1017C2268D003E07DE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42399F1117C2268D003E07DE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42399F1617C2268D003E07DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		42399F1717C2268D003E07DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42399F1917C2268D003E07DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "boom/boom-Prefix.pch";
+				INFOPLIST_FILE = "boom/boom-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		42399F1A17C2268D003E07DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "boom/boom-Prefix.pch";
+				INFOPLIST_FILE = "boom/boom-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		42399F1C17C2268D003E07DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/boom.app/boom";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "boom/boom-Prefix.pch";
+				INFOPLIST_FILE = "boomTests/boomTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		42399F1D17C2268D003E07DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/boom.app/boom";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "boom/boom-Prefix.pch";
+				INFOPLIST_FILE = "boomTests/boomTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42399EDF17C2268D003E07DE /* Build configuration list for PBXProject "boom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42399F1617C2268D003E07DE /* Debug */,
+				42399F1717C2268D003E07DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42399F1817C2268D003E07DE /* Build configuration list for PBXNativeTarget "boom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42399F1917C2268D003E07DE /* Debug */,
+				42399F1A17C2268D003E07DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42399F1B17C2268D003E07DE /* Build configuration list for PBXNativeTarget "boomTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42399F1C17C2268D003E07DE /* Debug */,
+				42399F1D17C2268D003E07DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42399EDC17C2268D003E07DE /* Project object */;
+}
